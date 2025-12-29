@@ -48,7 +48,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url || 'https://gracehaeunbaek.github.io' }}/" \
+            --baseURL "${{ steps.pages.outputs.base_url || 'https://gracebaekk.github.io/portfolio' }}/" \
             --destination ./public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

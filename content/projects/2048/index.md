@@ -3,7 +3,7 @@ date = '2025-12-28T00:00:00-07:00'
 draft = false
 title = '2048 Game'
 weight = 10
-image = "images/2048.png"
+listImage = "images/2048.png"
 +++
 
 I created a fully functional implementation of the classic 2048 tile-matching puzzle game. The game challenges players to combine numbered tiles on a grid by sliding them in four directions, with the goal of creating a tile with the value 2048.
